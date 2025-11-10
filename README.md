@@ -1,49 +1,46 @@
-# Contentful Hello World
+Contentful Hello World 🌐
+Model: SaaS (Software as a Service)
+Description:
 
-## 📝 Description
+Contentful is a headless CMS that separates content from design and delivers it through APIs.
+This simple project demonstrates how to fetch content from Contentful using pure HTML, CSS, and vanilla JavaScript, with no frameworks or build tools.
 
-This is a simple project that connects to **Contentful** (a headless CMS) and retrieves content using its SDK directly from the browser.  
-It is built only with **HTML**, **CSS**, and **vanilla JavaScript** (no frameworks).
+✅ Advantages:
 
-The app dynamically loads and displays a message stored in Contentful, simulating a headless architecture (content separated from design).
+Easy-to-use REST and GraphQL APIs
 
----
+Friendly interface for content editors
 
-## 🚀 How to Run Locally
+Extensive documentation and active community
 
-1. Download or clone this repository.
-2. Open the folder in your code editor (Visual Studio Code recommended).
-3. Double-click the `index.html` file or run it using Live Server.
-4. You will see a message loaded from your Contentful space.
+Direct integration with frontends, no backend required
 
----
+⚠️ Disadvantages:
 
-## 📦 Technologies Used
+Free plan has limitations
 
-- HTML5 + CSS3  
-- Vanilla JavaScript  
-- Contentful SDK (via CDN)  
-- Headless CMS: [Contentful](https://www.contentful.com)
+Requires internet connection
 
----
+High cost for enterprise-level plans
 
-## 🌐 Live Website Link
+🚀 How to Run Locally
 
-🔗 [https://contentful-hello-world.vercel.app](https://contentful-hello-world.vercel.app)  
-(If you don’t have it yet, you can deploy for free using [Vercel](https://vercel.com))
+Download or clone this repository
 
----
+Open the index.html file in your browser (double-click it)
 
-## 🔑 Contentful Space Link
+You’ll see a dynamic message fetched from Contentful
 
-🔗 [https://app.contentful.com/spaces/su6ddcji6fum/entries](https://app.contentful.com/spaces/su6ddcji6fum/entries)
+🖥️ Technologies Used
 
-- **Space ID:** `su6ddcji6fum`  
-- **Access Token:** Used directly in the HTML (public test version)
+HTML5 + CSS3
 
----
+Vanilla JavaScript
 
-## ✅ Expected Result
+Contentful JS SDK (via CDN)
 
-The project should display something like this in the browser:
+Platform: Contentful
 
+🌍 Live Website (Deployed with Vercel)
+
+🔗 https://contentful-three-chi.vercel.app
